@@ -5,4 +5,14 @@ h1 {
 .F1 {
   color: tomato;
   font-family: Arial;
+  top-margin : 20pt;
+  font-size : 28pt;
+  font-weight : bold;
+}
+.F2 {
+  color: black;
+  font-family: "Times New Roman" ;
+  top-margin : 20pt;
+  font-size : 28pt;
+  font-weight : bold;
 }
