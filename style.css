@@ -3,14 +3,14 @@ h1 {
   top-margin : 25pt;
 }
 .F1 {
-  color: tomato;
-  font-family: "ArialA";
+  color: olive;
+  font-family: "Arial";
   top-margin : 20pt;
   font-size : 28pt;
   font-weight : bold;
 }
 .F2 {
-  color: black;
+  color: navy;
   font-family: "Times New Roman" ;
   top-margin : 6pt;
   font-size : 15pt;
