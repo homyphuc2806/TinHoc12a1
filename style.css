@@ -16,3 +16,17 @@ h1 {
   font-size : 15pt;
   font-style : normal;
 }
+.F3 {
+  color: MistyRose1;
+  font-family: "Times New Roman";
+  top-margin: 6pt;
+  font-size: 15pt;
+  font-style: normal;
+}
+.F4 {
+  color: Lavender;
+  font-family: "Times New Roman";
+  top-margin : 20pt;
+  font-size : 28pt;
+  font-weight : bold;
+}
