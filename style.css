@@ -1,32 +1,94 @@
+container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+.header{
+
+flex:20%;
+aspect-ratio: 6/1;
+background-color: Firebrick3;
+background: url("images/kiss.jfif") center;
+
+.menu{
+flex:5%;
+background-color: LightSalmon1;
+display: flex;
+align-items: center;
+color: black
+  
+.menu a{
+padding: 15px 20px;
+color: Firebrick;
+
+.menu a:hover{
+background-color: Brown;
+color: white;
+
+.content{
+flex:70%;
+background-color: Papayawhip;
+
+.content iframe{
+flex:1;
+border: none;
+width: 100%;
+height:100%;
+}
+
+.footer{
+
+38
+
+39
+
+flex:5%;
+
+background-color: Firebrick;
+
+40
+
+41
+
+}
+
 h1 {
-  color: red;
-  top-margin : 25pt;
+
+42
+
+color: blue;
+
+43
+
+44
+
+text-margin:30pt;
+
+vertical-align: top;
+
+45
+
 }
-.F1 {
-  color: olive;
-  font-family: "Times New Roman";
-  top-margin : 20pt;
-  font-size : 28pt;
-  font-weight : bold;
-}
-.F2 {
-  color: navy;
-  font-family: "Times New Roman" ;
-  top-margin : 6pt;
-  font-size : 15pt;
-  font-style : normal;
-}
-.F3 {
-  color: Cyan;
-  font-family: "Times New Roman";
-  top-margin: 6pt;
-  font-size: 15pt;
-  font-style: normal;
-}
-.F4 {
-  color: Magenta;
-  font-family: "Times New Roman";
-  top-margin : 20pt;
-  font-size : 28pt;
-  font-weight : bold;
-}
+
+46
+
+.tuade {
+
+47
+
+48
+
+49
+
+50
+
+51
+
+color: #ff0000;
+
+font-family: "Times New Roman";
+
+margin-top:20pt;
+
+font-size:20pt;
+
+font-weight: bold;
