@@ -1,94 +1,53 @@
 container{
-display: flex;
-flex-direction: column;
-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 .header{
-
-flex:20%;
-aspect-ratio: 6/1;
-background-color: Firebrick3;
-background: url("images/kiss.jfif") center;
-
+  flex:20%;
+  aspect-ratio: 6/1;
+  background-color: Firebrick3;
+  background: url("images/kiss.jfif") center;
+}
 .menu{
-flex:5%;
-background-color: LightSalmon1;
-display: flex;
-align-items: center;
-color: black
-  
+  flex:5%;
+  background-color: LightSalmon1;
+  display: flex;
+  align-items: center;
+  color: black
+} 
 .menu a{
-padding: 15px 20px;
-color: Firebrick;
-
+  padding: 15px 20px;
+  color: Firebrick;
+}
 .menu a:hover{
-background-color: Brown;
-color: white;
-
+  background-color: Brown;
+  color: white;
+}
 .content{
-flex:70%;
-background-color: Papayawhip;
-
+  flex:70%;
+  background-color: Papayawhip;
+}
 .content iframe{
-flex:1;
-border: none;
-width: 100%;
-height:100%;
+  flex:1;
+  border: none;
+  width: 100%;
+  height:100%;
 }
-
 .footer{
-
-38
-
-39
-
-flex:5%;
-
-background-color: Firebrick;
-
-40
-
-41
-
+  flex:5%;
+  background-color: Firebrick;
 }
-
 h1 {
-
-42
-
-color: blue;
-
-43
-
-44
-
-text-margin:30pt;
-
-vertical-align: top;
-
-45
-
+  color: blue;
+  text-margin:30pt;
+  vertical-align: top;
 }
-
-46
-
 .tuade {
+  color: #ff0000;
+  font-family: "Times New Roman";
+  margin-top:6pt;
+  font-style:normal;
+  font-size:15pt;
+}
+  
 
-47
-
-48
-
-49
-
-50
-
-51
-
-color: #ff0000;
-
-font-family: "Times New Roman";
-
-margin-top:20pt;
-
-font-size:20pt;
-
-font-weight: bold;
