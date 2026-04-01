@@ -4,8 +4,15 @@
     <title> Kết quả phản hồi </title>
   </head>
   <body>
+     <p id="kq"> </p>
+     <script>
+       let params = new URLSearchParams(window.location.search);
+       let name = params.get("txtTen");
+       let yk = params.get("txtComment");
+      document.getElementById("kq").innerHTML ="Cảm ơn bạn" + ten + "đã góp ý" + "<br><br>Chúng tôi xin ghi nhận ý kiến của bạn như sau:<br>" + yk;
+     </script>
     <p><b> Cảm ơn bạn đã góp ý kiến </b></p>
-    <p> Chúng tôi xin ghi nhận ý kiến và sẽ cải tiến. nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới </p>
+    <p> Chúng tôi xin ghi nhận ý kiến và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới </p>
 
      <br>
      <form action="Bai7-NV2.html">
